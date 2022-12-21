@@ -1,0 +1,22 @@
+body {
+  padding: 2rem 1rem;
+}
+
+.body__type, .body__paragraph, .btn__cart {
+  font-family: "Montserrat", sans-serif;
+}
+
+.body__title, .body__price {
+  font-family: "Fraunces", serif;
+}
+
+.card__header {
+  width: 100%;
+}
+
+.header__img {
+  display: block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
