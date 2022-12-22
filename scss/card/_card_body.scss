@@ -51,3 +51,21 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+
+  .card__body {
+    display: flex;
+    flex-flow: column;
+    width: calc(50% - 4.9rem);
+    padding: 2.5rem;
+
+    .body__price {
+      margin-top: 2rem;
+    }
+  }
+
+  .btn__cart {
+    margin-top: 2rem;
+
+  }
+}
