@@ -3,16 +3,16 @@ body {
   background-color: hsl(30deg, 38%, 92%);
 }
 
-.body__type, .body__paragraph, .btn__cart {
+.body__type, .body__paragraph, .btn__cart, .price__original, .attribution {
   font-family: "Montserrat", sans-serif;
 }
 
-.body__type, .body__paragraph, .price__original {
+.body__type, .body__paragraph, .price__original, .btn__cart {
   font-size: 0.875rem;
   color: hsl(228deg, 12%, 48%);
 }
 
-.body__title, .body__price {
+.body__title, .price__discount {
   font-family: "Fraunces", serif;
 }
 
@@ -38,6 +38,7 @@ body {
 }
 .card__body .body__title {
   margin: 1rem 0;
+  color: hsl(212deg, 21%, 14%);
 }
 .card__body .body__paragraph {
   line-height: 1.5;
@@ -51,6 +52,22 @@ body {
 .body__price .price__original {
   text-decoration: line-through;
   vertical-align: super;
+}
+
+.btn__cart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-weight: 700;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+}
+.btn__cart .cart__icon {
+  margin-right: 0.7rem;
 }
 
 .card {
