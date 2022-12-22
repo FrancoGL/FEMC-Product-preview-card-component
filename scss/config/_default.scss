@@ -1,14 +1,24 @@
 @use "../utils/mixins" as mixin;
-@use "../utils/variables" as fonts;
+@use "../utils/variables";
 
 body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   padding: 2rem 1rem;
+  background-color: variables.$cream;
 }
 
-.body__type, .body__paragraph, .btn__cart {
-  @include mixin.setFont(fonts.$fontOne)
+.body__type, .body__paragraph, .btn__cart, .price__original, .attribution {
+  @include mixin.setFont(variables.$fontOne);
 }
 
-.body__title, .body__price {
-  @include mixin.setFont(fonts.$fontTwo)
+.body__type, .body__paragraph, .price__original, .btn__cart {
+  font-size: 0.875rem;
+  color: variables.$dark-grayish-blue;
+}
+
+.body__title, .price__discount {
+  @include mixin.setFont(variables.$fontTwo)
 }

@@ -1,12 +1,22 @@
 body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   padding: 2rem 1rem;
+  background-color: hsl(30deg, 38%, 92%);
 }
 
-.body__type, .body__paragraph, .btn__cart {
+.body__type, .body__paragraph, .btn__cart, .price__original, .attribution {
   font-family: "Montserrat", sans-serif;
 }
 
-.body__title, .body__price {
+.body__type, .body__paragraph, .price__original, .btn__cart {
+  font-size: 0.875rem;
+  color: hsl(228deg, 12%, 48%);
+}
+
+.body__title, .price__discount {
   font-family: "Fraunces", serif;
 }
 
@@ -17,6 +27,94 @@ body {
 .header__img {
   display: block;
   width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__header {
+    width: 50%;
+  }
+  .header__img {
+    height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+.card__body {
+  padding: 1.5rem;
+}
+.card__body .body__type {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+.card__body .body__title {
+  margin: 1rem 0;
+  color: hsl(212deg, 21%, 14%);
+}
+.card__body .body__paragraph {
+  line-height: 1.5;
+}
+
+.body__price .price__discount {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: hsl(158deg, 36%, 37%);
+}
+.body__price .price__original {
+  text-decoration: line-through;
+  vertical-align: super;
+}
+
+.btn__cart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-weight: 700;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+}
+.btn__cart .cart__icon {
+  margin-right: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card__body {
+    display: flex;
+    flex-flow: column;
+    width: calc(50% - 4.9rem);
+    padding: 2.5rem;
+  }
+  .card__body .body__price {
+    margin-top: 2rem;
+  }
+  .btn__cart {
+    margin-top: 2rem;
+  }
+}
+.card {
+  width: 21.438rem;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 40rem;
+    display: flex;
+  }
+}
+.attribution {
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=index.css.map */

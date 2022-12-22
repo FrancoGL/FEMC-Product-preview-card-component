@@ -1,0 +1,71 @@
+@use "../utils/variables";
+
+.card__body {
+  padding: 1.5rem;
+
+  .body__type {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+  }
+
+  .body__title {
+    margin: 1rem 0;
+    color: variables.$very-dark-blue;
+  }
+
+  .body__paragraph {
+    line-height: 1.5;
+  }
+}
+
+.body__price {
+
+  .price__discount {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: variables.$dark-cyan;
+  }
+
+  .price__original {
+    text-decoration: line-through;
+    vertical-align: super;
+  }
+}
+
+.btn__cart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-weight: 700;
+  background-color: variables.$dark-cyan;
+  color: variables.$white;
+  border: none;
+  border-radius: 10px;
+
+  .cart__icon {
+    margin-right: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .card__body {
+    display: flex;
+    flex-flow: column;
+    width: calc(50% - 4.9rem);
+    padding: 2.5rem;
+
+    .body__price {
+      margin-top: 2rem;
+    }
+  }
+
+  .btn__cart {
+    margin-top: 2rem;
+
+  }
+}

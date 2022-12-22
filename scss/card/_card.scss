@@ -1,2 +1,16 @@
-@use "./card-header";
+@use "card_header";
+@use "card_body";
+@use "../utils/variables";
 
+.card {
+  width: 21.438rem;
+  background-color: variables.$white;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 40rem;
+    display: flex;
+  }
+}
