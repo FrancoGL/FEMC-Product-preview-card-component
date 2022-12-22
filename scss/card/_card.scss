@@ -1,2 +1,8 @@
-@use "./card-header";
+@use "card_header";
+@use "card_body";
+@use "../utils/variables";
 
+.card {
+  background-color: variables.$white;
+  border-radius: 15px;
+}

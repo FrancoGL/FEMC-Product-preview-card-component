@@ -1,9 +1,15 @@
 body {
   padding: 2rem 1rem;
+  background-color: hsl(30deg, 38%, 92%);
 }
 
 .body__type, .body__paragraph, .btn__cart {
   font-family: "Montserrat", sans-serif;
+}
+
+.body__type, .body__paragraph, .price__original {
+  font-size: 0.875rem;
+  color: hsl(228deg, 12%, 48%);
 }
 
 .body__title, .body__price {
@@ -17,6 +23,39 @@ body {
 .header__img {
   display: block;
   width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card__body {
+  padding: 1.5rem;
+}
+.card__body .body__type {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+.card__body .body__title {
+  margin: 1rem 0;
+}
+.card__body .body__paragraph {
+  line-height: 1.5;
+}
+
+.body__price .price__discount {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: hsl(158deg, 36%, 37%);
+}
+.body__price .price__original {
+  text-decoration: line-through;
+  vertical-align: super;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */

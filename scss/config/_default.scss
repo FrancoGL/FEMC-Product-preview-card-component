@@ -1,14 +1,20 @@
 @use "../utils/mixins" as mixin;
-@use "../utils/variables" as fonts;
+@use "../utils/variables";
 
 body {
   padding: 2rem 1rem;
+  background-color: variables.$cream;
 }
 
 .body__type, .body__paragraph, .btn__cart {
-  @include mixin.setFont(fonts.$fontOne)
+  @include mixin.setFont(variables.$fontOne);
+}
+
+.body__type, .body__paragraph, .price__original {
+  font-size: 0.875rem;
+  color: variables.$dark-grayish-blue;
 }
 
 .body__title, .body__price {
-  @include mixin.setFont(fonts.$fontTwo)
+  @include mixin.setFont(variables.$fontTwo)
 }
