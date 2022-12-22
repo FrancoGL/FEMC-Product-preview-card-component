@@ -1,0 +1,35 @@
+@use "../utils/variables";
+
+.card__body {
+  padding: 1.5rem;
+
+  .body__type {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+  }
+
+  .body__title {
+    margin: 1rem 0;
+  }
+
+  .body__paragraph {
+    line-height: 1.5;
+  }
+}
+
+.body__price {
+
+  .price__discount {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: variables.$dark-cyan;
+  }
+
+  .price__original {
+    text-decoration: line-through;
+    vertical-align: super;
+  }
+}
+
