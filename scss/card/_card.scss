@@ -3,6 +3,7 @@
 @use "../utils/variables";
 
 .card {
+  width: 21.438rem;
   background-color: variables.$white;
   border-radius: 15px;
 }

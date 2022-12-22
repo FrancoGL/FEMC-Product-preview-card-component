@@ -2,6 +2,10 @@
 @use "../utils/variables";
 
 body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   padding: 2rem 1rem;
   background-color: variables.$cream;
 }
