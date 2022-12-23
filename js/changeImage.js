@@ -1,8 +1,13 @@
+let currentWidth = window.innerWidth;
+const pathToDesktopVersion =  "./images/image-product-desktop.webp";
+const pathToMobileVersion = "./images/image-product-mobile.webp";
+
 export const changeImage = ($image) => {
-    let currentWidth = window.innerWidth;
+
     if ( currentWidth >= 768) {
-        $image.src = "./images/image-product-desktop.webp"
-    } else {
-        $image.src = "./images/image-product-mobile.webp"
+        $image.src = pathToDesktopVersion
+    }
+    if (currentWidth < 768 && $image.src !== pathToMobileVersion) {
+        $image.src = pathToMobileVersion
     }
 }
