@@ -14,17 +14,17 @@ Users should be able to:
 ## Screenshot
 ### Mobile
 
-<img src="#" width="300px">
+<img src="https://user-images.githubusercontent.com/66887467/209375982-2a95f29b-f0ac-4165-bfdf-b56a4764890f.png" width="300px">
 
 ### Desktop
 
-<img src="#" width="400px">
+<img src="https://user-images.githubusercontent.com/66887467/209376029-07fad521-c7fe-4b02-bb0f-447e749ea55b.png" width="400px">
 
 
 ### Links
 
 - Solution URL: [Frontend Mentor](#)
-- Live Site URL: [Live Site with GitHub Pages](#)
+- Live Site URL: [Live Site with GitHub Pages](https://francogl.github.io/FEMC-Product-preview-card-component/)
 
 ## Built with
 
