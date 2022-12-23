@@ -27,6 +27,7 @@ body {
 .header__img {
   display: block;
   width: 100%;
+  height: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -83,6 +84,8 @@ body {
 }
 .btn__cart .cart__icon {
   margin-right: 0.7rem;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
