@@ -22,3 +22,9 @@ body {
 .body__title, .price__discount {
   @include mixin.setFont(variables.$fontTwo)
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+}
