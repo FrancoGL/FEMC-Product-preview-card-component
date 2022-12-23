@@ -18,12 +18,12 @@ Users should be able to:
 
 ### Desktop
 
-<img src="https://user-images.githubusercontent.com/66887467/209376029-07fad521-c7fe-4b02-bb0f-447e749ea55b.png" width="400px">
+<img src="https://user-images.githubusercontent.com/66887467/209403325-a9193e6f-3775-47a3-8525-d6d77dd81a57.png" width="400px">
 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-Dz8bXeVWDK)
 - Live Site URL: [Live Site with GitHub Pages](https://francogl.github.io/FEMC-Product-preview-card-component/)
 
 ## Built with
