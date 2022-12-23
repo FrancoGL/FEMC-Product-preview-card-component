@@ -69,3 +69,10 @@
 
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .btn__cart:hover {
+    background-color: variables.$hover;
+    transition: background-color 0.2s ease-in;
+  }
+}
