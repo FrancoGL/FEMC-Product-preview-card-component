@@ -20,6 +20,11 @@ body {
   font-family: "Fraunces", serif;
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+}
 .card__header {
   width: 100%;
 }
