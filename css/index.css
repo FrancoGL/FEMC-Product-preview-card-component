@@ -33,8 +33,6 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,9 +41,6 @@ body {
   }
   .header__img {
     height: 100%;
-    border-top-right-radius: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
   }
 }
 .card__body {
@@ -117,6 +112,7 @@ body {
   width: 21.438rem;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
